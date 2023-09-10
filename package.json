@@ -1,0 +1,35 @@
+{
+  "name": "phonebook-backend",
+  "version": "1.0.0",
+  "description": "Backend application to phonebook",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmrosatab/phonebook-backend.git"
+  },
+  "keywords": [
+    "phonebook",
+    "backend",
+    "nodejs"
+  ],
+  "author": "Mayara Marques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmrosatab/phonebook-backend/issues"
+  },
+  "homepage": "https://github.com/mmrosatab/phonebook-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.33.0",
+    "sqlite3": "^5.1.6"
+  }
+}
